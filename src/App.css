@@ -1,0 +1,96 @@
+.divTable{
+  width: 400px;
+}
+.foodTable{
+  margin-top: 40px;
+  border-collapse:collapse;
+}
+.orderFoodTable{
+  margin-top: 40px;
+  border-collapse:collapse;
+}
+.foodTable, .foodTable th,.foodTable td{
+  border: 4px solid #FFB60F;
+  text-align: center;
+  font: inherit;
+}
+.orderFoodTable, .orderFoodTable th, .orderFoodTable td{
+  border: 4px solid #ee2907;
+  text-align: center;
+  font: inherit;
+}
+th{
+  color: white;
+}
+td{
+  color:rgba(223, 209, 207, 0.904);
+}
+.foodTable td{
+  cursor: pointer;
+}
+.foodTable th,.foodTable td {
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  padding-block: 20px;
+  padding-inline: 10px;
+}
+.orderFoodTable th,.orderFoodTable td{
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+  padding-block: 20px;
+  padding-inline: 10px;
+
+}
+.rownumber{
+    padding-inline: 10px;
+}
+.preservedWhiteSpace{
+    white-space: pre; 
+}
+.lableDiv{
+  margin-top: 40px;
+  width: 250px;
+  background-color: #ff2600;
+  border-radius: 4px;
+  padding: 1px;
+}
+label{
+  font-size: 25px;
+  font-weight:bold;
+  color: rgba(223, 209, 207, 0.904);
+  font-family:'Times New Roman', Times, serif;
+}
+.resetButton{
+  margin-top: 40px;
+  width: 150px;
+  background-color: #000000;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+input{
+  height: 20px;
+  width: 40px;
+  border-radius: 20px;
+  background-color:#47453f;
+  color: rgba(223, 209, 207, 0.904);
+  border-color: red;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+}
+.finishButton{
+  margin-top: 40px;
+  background-color: #facc00;
+  border-radius: 20px;
+  text-align: center;
+  padding: 8px 30px 8px 30px;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
